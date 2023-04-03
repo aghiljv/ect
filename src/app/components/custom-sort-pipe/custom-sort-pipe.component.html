@@ -1,0 +1,13 @@
+<h1>Sorting Example</h1>
+
+<h2>Simple sort by name</h2>
+<div class="container" *ngFor="let item of options | customSort : '-name'">
+  {{ item.name }}
+</div>
+
+<!-- <h2>Sort by name and then by price</h2>
+<div *ngFor="let item of options | customSort : ['name', '-price']">
+  {{ item.name }} - {{ item.price }}
+</div> -->
+
+<a routerLink="/">Go back</a>

@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+.mainContainer{
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vh;
+    padding: 1vh;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 10px black;
+}
+a{
+    width: 100%;
+    height: 20%;
+    margin: 1vh;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: auto;
+    box-shadow: 1px 1px 10px black;
+}
